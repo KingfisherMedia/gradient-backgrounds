@@ -1,0 +1,25 @@
+
+
+
+.kmblue {
+    background-image: linear-gradient(45deg, #0314ac, #1f44e6);
+}
+
+.pastelbright {
+    background-image: linear-gradient(45deg, #c5e60f, #05a3ca);
+}
+
+.slide {
+    background-size: 250%;
+    animation-name: slide;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    animation-timing-function: cubic-bezier();
+}
+@keyframes slide {
+    0% {background-position: left;}
+    50% {background-position: right;}
+    100% {background-position: left;}
+}
