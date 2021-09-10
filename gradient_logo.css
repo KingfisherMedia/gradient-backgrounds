@@ -1,4 +1,6 @@
-
+body {
+    height: 1080px;
+}
 
 .kmblue {
     background-image: linear-gradient(75deg, #07BEB8, #122191, #0E175A);
@@ -8,14 +10,10 @@
     background-image: linear-gradient(45deg, #c5e60f, #05a3ca);
 }
 
-.rainbow {
-    background-image: linear-gradient(90deg, red, yellow, green, teal, blue, hotpink);
-}
-
 .slide {
     background-size: 250%;
     animation-name: slide;
-    animation-duration: 8s;
+    animation-duration: 10s;
     position: relative;
     animation-iteration-count: infinite;
     overflow: hidden;
@@ -27,3 +25,10 @@
     100% {background-position: left;}
 }
 
+.logo img{
+    width: 800px;
+    margin: auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: center;
+}
